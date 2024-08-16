@@ -89,6 +89,27 @@
       </div>
     </div>
   </div>
+    <style>
+        .marquee {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+        .marquee p {
+            display: inline-block;
+            animation: marquee 10s linear infinite;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee">
+        <p>این یک متن متحرک است که از سمت چپ خارج و از سمت راست وارد می‌شود.</p>
+    </div>
 
 </body>
 </html>
