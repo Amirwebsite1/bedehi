@@ -1,0 +1,8 @@
+@font-face{
+    font-family: myFont;
+    src: url(Cinema.ttf);
+}
+.ali{
+    font-family: myFont;
+    font-size: 100px;
+}
